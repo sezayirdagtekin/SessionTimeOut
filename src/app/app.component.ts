@@ -21,9 +21,9 @@ export class AppComponent {
   
   constructor(private element: ElementRef, private idle: Idle, private keepalive: Keepalive, private ngbModal: NgbModal) {
     // sets an idle timeout of 15 minutes.
-    idle.setIdle(20);
+    idle.setIdle(900);
     // sets a timeout period of 5 minutes.
-    idle.setTimeout(10);
+    idle.setTimeout(300);
     // sets the interrupts like Keydown, scroll, mouse wheel, mouse down, and etc
     idle.setInterrupts([
       new EventTargetInterruptSource(
