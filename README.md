@@ -11,6 +11,10 @@ npm install –save @ng-idle/core
 
 npm install –save @ng-idle/keepalive
 
+before Angular 6.0
+use that
+npm install --save @ng-idle/core@2.0.0-beta.15 @ng-idle/keepalive@2.0.0-beta.15
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
