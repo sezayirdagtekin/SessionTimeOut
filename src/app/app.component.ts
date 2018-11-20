@@ -106,7 +106,9 @@ export class AppComponent {
   }
 
   closeProgressForm() {
+	  console.log("close program");
     this.progressBarPopup.close();
+	window.location.href = '/logout';
   }
 
   resetTimeOut() {
